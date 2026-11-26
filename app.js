@@ -4,7 +4,7 @@
   const I18N = window.ORS_I18N;
   const LANGS = ["az", "tr", "en"];
   const STORE = "ors-language";
-  const img = (k) => `/images/${k}.jpg`;
+  const img = (k) => `images/${k}.jpg`;
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const tel = (p) => "tel:" + p.replace(/\s/g, "");
 
@@ -203,7 +203,7 @@
           <div><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><h4>${esc(inf.hoursTitle)}</h4><span>${esc(inf.hoursText)}</span><span>${esc(C.hours)}</span></div></div>
         </div>
         <div class="footer__grid">
-          <div><img src="/assets/ors-logo-white.svg" alt="ORS Company" class="footer__logo" /><p class="footer__about">${esc(f.about)}</p></div>
+          <div><img src="assets/ors-logo-white.svg" alt="ORS Company" class="footer__logo" /><p class="footer__about">${esc(f.about)}</p></div>
           <div><h4>${esc(f.menu)}</h4><ul>${NAV.map((k) => `<li><a href="#${k}">${esc(t.nav[k])}</a></li>`).join("")}</ul></div>
           <div><h4>${esc(f.services)}</h4><ul>${t.services.items.map((s) => `<li><a href="#services">${esc(s.title)}</a></li>`).join("")}</ul></div>
           <div><h4>${esc(f.contact)}</h4><ul>
