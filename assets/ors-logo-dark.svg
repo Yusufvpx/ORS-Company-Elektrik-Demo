@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 888 417" role="img" aria-label="ORS Company">
+  <g fill="none" stroke="#3a3431" stroke-width="22">
+    <rect x="44" y="26" width="800" height="304"/>
+  </g>
+  <!-- O -->
+  <path fill="#3a3431" fill-rule="evenodd" d="M110 88h190l40 40v120l-40 40H110l-40-40V128zm26 50v100l16 16h106l16-16V138l-16-16H152z"/>
+  <!-- R -->
+  <path fill="#3a3431" fill-rule="evenodd" d="M372 88h200l38 38v56l-34 30 54 76h-62l-46-66h-92v66h-58zm58 50v44h116l10-10v-24l-10-10z"/>
+  <!-- S -->
+  <path fill="#3a3431" d="M664 88h150v50H700v34h86l38 38v40l-38 38H630v-50h136v-26h-82l-38-38v-48z"/>
+  <!-- accent -->
+  <path fill="#6b7c98" d="M700 52h104l28 26H700z"/>
+  <text x="444" y="398" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="40" letter-spacing="14" fill="#3a3431">COMPANY</text>
+</svg>

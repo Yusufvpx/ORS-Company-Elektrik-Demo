@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ORS Company — Elektrik avadanlıqları və avtomatika</title>
+  <meta name="description" content="ORS Company: elektrik avadanlıqlarının satışı, elektrik paylayıcı və MCC panelləri, PLC/SCADA avtomatika sistemləri, montaj, istismara vermə və texniki servis." />
+  <meta name="theme-color" content="#2a2624" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ORS Company" />
+  <meta property="og:title" content="ORS Company — Elektrik avadanlıqları və avtomatika" />
+  <meta property="og:description" content="Elektrik avadanlıqlarının tədarükü, panel istehsalı, sənaye avtomatikası, montaj və servis — bir yerdən." />
+  <meta property="og:image" content="/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="ORS Company"><img src="/assets/ors-logo-white.svg" alt="ORS Company" /></a>
+      <nav class="nav" id="nav" aria-label="menu"></nav>
+      <div class="header__actions">
+        <div class="lang" id="lang"></div>
+        <a class="icon-btn" id="mailBtn" href="#contact" aria-label="E-mail">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        </a>
+        <button class="burger" id="burger" aria-label="menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="footer" id="footer"></footer>
+
+  <a class="wa-float" id="waFloat" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="#fff"><path d="M16 3a13 13 0 0 0-11.1 19.7L3 29l6.5-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.5-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4 14.6 14.6 0 0 0 5.6 5c2.1.9 2.9 1 4 .8a3.4 3.4 0 0 0 2.2-1.6 2.8 2.8 0 0 0 .2-1.6c-.1-.1-.3-.2-.6-.4z"/></svg>
+  </a>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__close" data-lb="close" aria-label="close">×</button>
+    <button class="lightbox__nav lightbox__prev" data-lb="prev" aria-label="prev">‹</button>
+    <figure><img id="lbImg" alt="" /><figcaption id="lbCap"></figcaption></figure>
+    <button class="lightbox__nav lightbox__next" data-lb="next" aria-label="next">›</button>
+  </div>
+
+  <script src="/content.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
